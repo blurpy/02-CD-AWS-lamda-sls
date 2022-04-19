@@ -38,7 +38,7 @@ def handler(event, context):
             "statusCode": 200,
             "headers": {
                 "Content-Type": "application/json",
-                "X-Monkey": "true"
+                "X-Monkey": "false"
             },
             "body": json.dumps({
                 "sentiment ": json.dumps(sentiment)
